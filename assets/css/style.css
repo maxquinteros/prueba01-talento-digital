@@ -1,0 +1,51 @@
+/* smooth scroll */
+html {
+    scroll-behavior: smooth;
+}
+
+/* header */
+header {
+    background-color: #000000;
+}
+
+/* body */
+body {
+    background-color: #000000;
+}
+
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.roboto-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.color-white {
+    color: #FFFFFF;
+}
+
+.bg-deepskyblue {
+    background-color: #0dcaf0;
+}
+
+
+/* carousel */
+.img-carousel {
+    height: 800px;
+}
+
+/* cards */
+.img-card {
+    height: 190px;
+}
+
+/* contacto */
+#button-send {
+    background-color: #0dcaf0;
+    border: none;
+}

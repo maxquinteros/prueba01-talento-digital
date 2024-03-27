@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Prueba - Viajes Chile</title>
+    <link rel="icon" sizes="32x32" href="/assets/img/viajes.svg">
+    <meta name="author" content="Maximiliano Quinteros">
+    <meta name="description"
+        content="Solución de la prueba viajes chile de talento digital hecha por Maximiliano Quinteros">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <!-- navbar-->
+        <nav class="navbar navbar-expand-sm navbar-dark bg-opacity fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand ms-5" href="javascript:void(0)"><img src="assets/img/viajes.svg"
+                        width="32px"><span class="roboto-regular">Viajes Chile</span></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="mynavbar">
+                    <ul class="navbar-nav roboto-regular me-5">
+                        <li class="nav-item">
+                            <a class="nav-link roboto-regular destacar" href="#inicio">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link roboto-regular destacar" href="#quienes-somos">Quienes somos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link roboto-regular destacar" href="#destacados">Destacados</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link roboto-regular destacar" href="#contacto">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- carousel-->
+        <div class="d-none d-sm-block" id="inicio">
+            <div id="carouselAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="assets/img/carousel1.jpg" class="d-block w-100 img-carousel">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/img/carousel2.jpg" class="d-block w-100 img-carousel">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/img/carousel3.jpg" class="d-block w-100 img-carousel">
+                    </div>
+                </div>
+                <button class="carousel-control-prev destacar" type="button" data-bs-target="#carouselAutoplaying"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next destacar" type="button" data-bs-target="#carouselAutoplaying"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </header>
+    <main class="bg-black">
+        <!-- quienes-somos -->
+        <section class="container-lg pt-3">
+            <h5 class=" text-center roboto-bold color-white pb-3" id="quienes-somos">¿QUIÉNES SOMOS?</h5>
+            <div class="row">
+                <div class="col-sm-4 text-center text-white my-2">
+                    <div class="bg-deepskyblue destacar" id="quienes-somos-columna1">
+                        <i class="fa-solid fa-plane fs-4"></i>
+                    </div>
+                    <p class="roboto-regular" id="quienes-somos-texto1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nec justo
+                        nibh. Curabitur vel
+                        dolor non ante aliquam tincidunt. Praesent pretium tincidunt purus, eget condimentum erat
+                        pretium vitae. Nunc pellentesque sit amet ipsum nec feugiat. Nullam consectetur mauris nulla, ac
+                        fermentum sem placerat eu. Aenean laoreet ex libero, ac dapibus justo dignissim a. Etiam non
+                        ante at massa aliquet rutrum. Donec tempor bibendum neque in bibendum. Praesent quis elit ut
+                        lorem cursus luctus. Quisque sollicitudin mollis fermentum. Nunc pellentesque tortor justo, non
+                        facilisis risus auctor sed. Pellentesque tincidunt aliquet elit. Suspendisse potenti. Maecenas
+                        eu.</p>
+                </div>
+                <div class="col-sm-4 text-center text-white my-2">
+                    <p class="roboto-regular" id="quienes-somos-texto2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nec justo
+                        nibh. Curabitur vel
+                        dolor non ante aliquam tincidunt. Praesent pretium tincidunt purus, eget condimentum erat
+                        pretium vitae. Nunc pellentesque sit amet ipsum nec feugiat. Nullam consectetur mauris nulla, ac
+                        fermentum sem placerat eu. Aenean laoreet ex libero, ac dapibus justo dignissim a. Etiam non
+                        ante at massa aliquet rutrum. Donec tempor bibendum neque in bibendum. Praesent quis elit ut
+                        lorem cursus luctus. Quisque sollicitudin mollis fermentum. Nunc pellentesque tortor justo, non
+                        facilisis risus auctor sed. Pellentesque tincidunt aliquet elit. Suspendisse potenti. Maecenas
+                        eu.</p>
+                    <div class="bg-deepskyblue destacar" id="quienes-somos-columna2">
+                        <i class="fa-solid fa-mountain fs-4"></i>
+                    </div>
+                </div>
+                <div class="col-sm-4 text-center text-white my-2">
+                    <div class="bg-deepskyblue destacar" id="quienes-somos-columna3">
+                        <i class="fa-solid fa-route fs-4"></i>
+                    </div>
+                    <p class="roboto-regular" id="quienes-somos-texto3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nec justo
+                        nibh. Curabitur vel
+                        dolor non ante aliquam tincidunt. Praesent pretium tincidunt purus, eget condimentum erat
+                        pretium vitae. Nunc pellentesque sit amet ipsum nec feugiat. Nullam consectetur mauris nulla, ac
+                        fermentum sem placerat eu. Aenean laoreet ex libero, ac dapibus justo dignissim a. Etiam non
+                        ante at massa aliquet rutrum. Donec tempor bibendum neque in bibendum. Praesent quis elit ut
+                        lorem cursus luctus. Quisque sollicitudin mollis fermentum. Nunc pellentesque tortor justo, non
+                        facilisis risus auctor sed. Pellentesque tincidunt aliquet elit. Suspendisse potenti. Maecenas
+                        eu.</p>
+                </div>
+            </div>
+        </section>
+        <!-- destacados -->
+        <section class="container-lg py-3">
+            <h5 class=" text-center roboto-bold color-white pb-3" id="destacados">DESTACADOS</h5>
+            <div class="row">
+                <div class="col-sm-3 text-white my-2 destacar">
+                    <div class="card" style="width: 18rem;">
+                        <img src="assets/img/card1.jpg" class="card-img-top img-card">
+                        <div class="card-body bg-deepskyblue text-white">
+                            <h5 class="card-title roboto-bold">Lorem ipsum dolor sit amet</h5>
+                            <p class="card-text roboto-regular">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Aenean nec justo nibh. Curabitur vel
+                                dolor non ante aliquam tincidunt.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3 text-white my-2 destacar">
+                    <div class="card" style="width: 18rem;">
+                        <img src="assets/img/card2.jpg" class="card-img-top img-card">
+                        <div class="card-body bg-deepskyblue text-white">
+                            <h5 class="card-title roboto-bold">Lorem ipsum dolor sit amet</h5>
+                            <p class="card-text roboto-regular">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Aenean nec justo nibh. Curabitur vel
+                                dolor non ante aliquam tincidunt.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3 text-white my-2 destacar">
+                    <div class="card" style="width: 18rem;">
+                        <img src="assets/img/card3.jpg" class="card-img-top img-card">
+                        <div class="card-body bg-deepskyblue text-white">
+                            <h5 class="card-title roboto-bold">Lorem ipsum dolor sit amet</h5>
+                            <p class="card-text roboto-regular">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Aenean nec justo nibh. Curabitur vel
+                                dolor non ante aliquam tincidunt.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3 text-white my-2 destacar">
+                    <div class="card" style="width: 18rem;">
+                        <img src="assets/img/card4.jpg" class="card-img-top img-card">
+                        <div class="card-body bg-deepskyblue text-white">
+                            <h5 class="card-title roboto-bold">Lorem ipsum dolor sit amet</h5>
+                            <p class="card-text roboto-regular">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Aenean nec justo nibh. Curabitur vel
+                                dolor non ante aliquam tincidunt.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- contacto -->
+        <section class="container-lg pt-3 pb-5">
+            <h5 class=" text-center roboto-bold color-white pb-3" id="contacto">CONTACTO</h5>
+            <form>
+                <div class="mb-3">
+                    <label for="FormControlInputName" class="form-label roboto-regular text-white">Nombre</label>
+                    <input type="text" class="form-control" id="FormControlInputName">
+                </div>
+                <div class="mb-3">
+                    <label for="FormControlInputSubject" class="form-label roboto-regular text-white">Asunto</label>
+                    <input type="text" class="form-control" id="FormControlInputSubject">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label roboto-regular text-white">Mensaje</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="8"></textarea>
+                </div>
+                <button type="submit" onclick="confirmacion()" class="btn btn-primary destacar" id="button-send">Enviar</button>
+            </form>
+        </section>
+    </main>
+    <!-- footer -->
+    <footer class="container-fluid bg-deepskyblue align-bottom pt-3">
+        <div class="row">
+            <div class="col text-center text-white">
+                <p class="roboto-bold fs-3">VIAJES CHILE</p>
+            </div>
+            <div class="col text-center">
+                <a href="https://github.com/"><i class="fa-brands fa-square-github text-white fs-3 mx-1 destacar"></i></a>
+                <a href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin text-white fs-3 mx-1 destacar"></i></a>
+                <a href="https://twitter.com/"><i class="fa-brands fa-square-twitter text-white fs-3 mx-1 destacar"></i></a>
+                <a href="https://es-la.facebook.com/"><i class="fa-brands fa-square-facebook text-white fs-3 mx-1 destacar"></i></a>
+            </div>
+        </div>
+    </footer>
+    <script src="assets/js/index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/e7918f9b97.js" crossorigin="anonymous"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.js"
+      integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+      crossorigin="anonymous"
+    ></script>
+    <script src="assets/js/jquery.js"></script>
+</body>
+
+</html>
